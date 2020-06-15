@@ -1,0 +1,28 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+            
+            double x=91;
+            char xx=grade(x);
+            double y=87;
+              double z=61.6;
+                double t=77.4;
+                
+     }
+     public static char grade(double a)
+{
+     
+ if (a>=90)
+ return 'a';
+ else if (a>=80)
+ return 'b';
+ else if (a>=70)
+ return 'c';
+ else if (a>=60)
+ return 'd';
+ else 
+ return 'f';
+ 
+}
+
+}
